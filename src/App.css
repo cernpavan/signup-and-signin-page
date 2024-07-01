@@ -1,0 +1,108 @@
+/* Body styles */
+body {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Make body full height of viewport */
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Optional: Set background color */
+}
+
+/* Login page styles */
+.login-page {
+  width: 400px; /* Set a fixed width */
+  margin: auto; /* Center horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.login-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-page section {
+  margin-top: 20px;
+}
+
+.login-page label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-page input[type="email"],
+.login-page input[type="password"] {
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px; /* Adjust the gap between input and right margin */
+}
+
+
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-page button:hover {
+  background-color: #0056b3;
+}
+
+/* Signup page styles */
+.signup-page {
+  width: 400px; /* Set a fixed width */
+  margin: auto; /* Center horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.signup-page h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-page section {
+  margin-top: 20px;
+}
+
+.signup-page label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.signup-page input[type="text"],
+.signup-page input[type="email"],
+.signup-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-page button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-page button:hover {
+  background-color: #218838;
+}
